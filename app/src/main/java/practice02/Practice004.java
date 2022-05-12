@@ -21,8 +21,8 @@ public class Practice004 {
     int y = sc.nextInt();
     sc.close();
 
-    if (-1000 <= x && x <= 1000 && x != 0 &&
-        -1000 <= y && y <= 1000 && y != 0) {
+    if ((-1000 <= x && x <= 1000 && x != 0) &&
+        (-1000 <= y && y <= 1000 && y != 0)) {
 
       if (x > 0) {
         if (y > 0) {
