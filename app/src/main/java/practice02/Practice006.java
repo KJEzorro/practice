@@ -32,6 +32,7 @@ public class Practice006 {
 
       while (d % 60 == 0) {
         System.out.println("aaaa");
+
       }
 
 
