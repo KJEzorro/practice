@@ -26,6 +26,7 @@ public class Practice006 {
     int c = sc.nextInt();
     sc.close();
 
+
     if ((0 <= a && a <= 23) && (0 <= b && b <= 59) && (0 <= c && c <= 1000)) {
 
       int d = b + c;
