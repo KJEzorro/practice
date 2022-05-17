@@ -21,22 +21,22 @@ public class Practice006 {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    int a = sc.nextInt();
-    int b = sc.nextInt();
-    int c = sc.nextInt();
+    int a = sc.nextInt(); // 시
+    int b = sc.nextInt(); // 분
+    int c = sc.nextInt(); // 추가시간
     sc.close();
-
-
-
 
     if ((0 <= a && a <= 23) && (0 <= b && b <= 59) && (0 <= c && c <= 1000)) {
 
       int d = b + c;
 
-      while (d % 60 == 0) {
-        System.out.println("aaaa");
-
+      a = a + (d / 60);
+      if (a >= 24) {
+        a = a % 24;
       }
+      c = d % 60;
+
+      System.out.printf("%d %d", a, c);
 
 
 
