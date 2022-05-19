@@ -23,8 +23,6 @@ public class Practice002 {
     for (int i = 0; i < t; i++) {
       int a = sc.nextInt();
       int b = sc.nextInt();
-
-
     }
   }
 }
