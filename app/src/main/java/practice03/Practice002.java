@@ -25,6 +25,7 @@ public class Practice002 {
       int b = sc.nextInt();
 
 
+
     }
   }
 }
