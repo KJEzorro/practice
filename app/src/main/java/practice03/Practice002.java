@@ -1,6 +1,7 @@
 package practice03;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
@@ -15,7 +16,7 @@ public class Practice002 {
   //  각 테스트 케이스마다 A+B를 출력한다.
 
   public static void main(String[] args) {
-    List list = new ArrayList();
+    List<Integer> list = new ArrayList<>();
 
     Scanner sc = new Scanner(System.in);
 
@@ -24,15 +25,13 @@ public class Practice002 {
       int a = sc.nextInt();
       int b = sc.nextInt();
 
+      list.add(a+b);
 
+    }
 
-
-
-
-
-
-
-
+    Iterator<Integer> it = list.iterator(); 
+    while (it.hasNext()) {
+      System.out.println(it.next());
     }
   }
 }
