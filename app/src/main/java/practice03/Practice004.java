@@ -37,11 +37,6 @@ public class Practice004 {
 
     int t = Integer.parseInt(br.readLine());
 
-    System.out.println(t);
-
-
-
-
 
   }
 
