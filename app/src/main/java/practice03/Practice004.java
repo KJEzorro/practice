@@ -37,14 +37,8 @@ public class Practice004 {
 
     int t = Integer.parseInt(br.readLine());
 
-
-
-
-
     bw.flush();
 
 
   }
-
-
 }
