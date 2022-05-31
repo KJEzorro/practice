@@ -37,10 +37,20 @@ public class Practice004 {
 
     int t = Integer.parseInt(br.readLine());
 
+
+    for (int i = 0; i < t; i++) {
+
+      String[] arr = new String[2];
+      arr = br.readLine().split(" ");
+      int a = Integer.parseInt(arr[0]);
+      int b = Integer.parseInt(arr[1]);
+
+      bw.write(a + b + "\n");
+    }
+
+
     bw.flush();
-
-
-
-
+    br.close();
+    bw.close();
   }
 }
