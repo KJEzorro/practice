@@ -49,7 +49,7 @@ public class Practice004 {
     }
 
 
-    bw.flush();
+    //    bw.flush();
     br.close();
     bw.close();
   }
