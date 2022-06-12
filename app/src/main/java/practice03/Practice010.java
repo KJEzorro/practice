@@ -28,6 +28,8 @@ public class Practice010 {
           System.out.print("*");
         }
         System.out.println();
+
+
       }
     } catch (Exception e) {
       e.printStackTrace();
