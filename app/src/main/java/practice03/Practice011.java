@@ -27,8 +27,6 @@ public class Practice011 {
       }
     } catch (Exception e) {
       e.printStackTrace();
-
-
     }
   }
 }
