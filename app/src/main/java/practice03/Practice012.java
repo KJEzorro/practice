@@ -22,6 +22,8 @@ public class Practice012 {
 
       int n = Integer.parseInt(br.readLine());
 
+
+
     } catch (Exception e) {
       e.printStackTrace();
     }
