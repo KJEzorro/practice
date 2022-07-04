@@ -19,10 +19,20 @@ public class Practice012 {
     try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));) {
 
+      String a = br.readLine();
 
-      int n = Integer.parseInt(br.readLine());
+      int n = Integer.parseInt(a.split(" ")[0]);
+      int x = Integer.parseInt(a.split(" ")[1]);
 
+      String s = br.readLine();
+      for(int i = 0; i < n; i++) {
+        int z = Integer.parseInt(s.split(" ")[i]);
 
+        if (z < x) {
+          bw.write(z + " ");
+        }
+      }
+      bw.flush();
 
     } catch (Exception e) {
       e.printStackTrace();
