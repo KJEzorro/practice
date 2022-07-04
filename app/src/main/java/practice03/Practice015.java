@@ -26,9 +26,6 @@ public class Practice015 {
     try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));) {
 
-
-
-
     } catch (Exception e) {
       e.printStackTrace();
     }
