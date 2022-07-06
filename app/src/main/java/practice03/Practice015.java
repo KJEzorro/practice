@@ -27,6 +27,11 @@ public class Practice015 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));) {
 
 
+      int n = Integer.parseInt(br.readLine());
+
+
+
+
 
     } catch (Exception e) {
       e.printStackTrace();
