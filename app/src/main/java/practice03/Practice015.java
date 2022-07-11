@@ -25,7 +25,21 @@ public class Practice015 {
 
     try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));) {
-      int n = Integer.parseInt(br.readLine());
+
+      int N = Integer.parseInt(br.readLine());
+
+      int count = 0;
+      int temp = N;
+      int sum = 0;
+      do{
+        count ++;
+        sum = (temp/10) + (temp%10);  // 예) 26 / 10 + 26 % 10 = 8
+        temp = (temp%10*10) + (sum%10);
+      }while(N!=temp);
+
+      bw.write(Integer.toString(count));
+
+      bw.flush();
 
     } catch (Exception e) {
       e.printStackTrace();
