@@ -39,11 +39,7 @@ public class Practice001 {
       if (minNum > arr[j]) {
         minNum = arr[j];
       }
-
     }
-
-
-
 
     System.out.printf("%d %d",minNum, maxNum);
   }
