@@ -40,6 +40,8 @@ public class Practice001 {
         minNum = arr[j];
       }
     }
+
+
     System.out.printf("%d %d",minNum, maxNum);
   }
 }
