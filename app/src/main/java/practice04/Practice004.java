@@ -23,8 +23,5 @@ public class Practice004 {
       set.add(sc.nextInt() % 42);
     }
     System.out.println(set.size());
-
-
-
   }
 }
