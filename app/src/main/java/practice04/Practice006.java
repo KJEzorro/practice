@@ -22,13 +22,9 @@ public class Practice006 {
     Scanner sc = new Scanner(System.in);
 
     int n = Integer.parseInt(sc.nextLine());
-
-
     for (int i = 0; i < n; i++) {
-
       int cnt = 0;
       int score = 0;
-
       String str = sc.nextLine();
       String[] arr = str.split("");
 
