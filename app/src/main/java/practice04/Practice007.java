@@ -10,9 +10,5 @@ public class Practice007 {
     Scanner sc = new Scanner(System.in);
 
 
-
-
-
-
   }
 }
