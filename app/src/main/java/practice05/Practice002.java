@@ -37,6 +37,7 @@ public class Practice002 {
     for (int i = 0 ; i < total.length; i++) {
       total[i] = 0;
     }
+
     for (int i =1; i <= 10000; i++) {
       int su = f.selfnum(i);
       if(su <= 10000) {
@@ -51,19 +52,4 @@ public class Practice002 {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
