@@ -21,7 +21,5 @@ public class Practice002 {
       sum += Integer.parseInt(str[i]);
     }
     System.out.println(sum);
-
-
   }
 }
